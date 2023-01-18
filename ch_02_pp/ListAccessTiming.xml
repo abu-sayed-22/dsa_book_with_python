@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Plot title="Average List Element Access Time">
+<Axes>
+<XAxis min="’+str(xmin)+’" max="’+str(xmax)+’">List Size</XAxis>
+<YAxis min="’+str(min(yList))+’" max="’+str(60)+’">Microseconds</YAxis>
+ </Axes>
+ < Sequence title = "Average Access Time vs List Size" color = "red" >
+<DataPoint x="’+str(xList[i])+’" y="’+str(yList[i])+’"/>
+ </Sequence>
