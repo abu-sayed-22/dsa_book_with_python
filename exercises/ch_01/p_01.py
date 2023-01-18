@@ -2,7 +2,7 @@ import turtle
 
 t=turtle.Turtle()
 screen=t.getscreen()
-file=open("data.txt" ,"r")
+file=open("data.txt", "r")
 
 # Getting the file data
 for line in file:

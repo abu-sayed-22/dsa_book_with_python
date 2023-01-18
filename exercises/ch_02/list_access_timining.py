@@ -3,7 +3,7 @@ import random
 import time
 
 def main():
-    file=open("ListAccessTiming.xml" , 'w')
+    file=open("ListAccessTiming.xml", 'w')
     file.write('<?xml version="1.0" encoding="UTF-8" standalone="no" ?>\n')
     file.write('<Plot title="Average List Element Access Time">\n')
     # test lists of size 1000 to 200000
